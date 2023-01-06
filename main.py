@@ -16,8 +16,7 @@ def iss_overhead():
 
     iss_latitude = float(data["iss_position"]["latitude"])
     iss_longitude = float(data["iss_position"]["longitude"])
-    print(iss_latitude)
-    print(iss_longitude)
+
 
     #Your position is within +5 or -5 degrees of the ISS position.
 
